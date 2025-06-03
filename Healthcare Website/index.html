@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hcare Industries</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #0d6efd;
+    }
+    .navbar-brand, .nav-link, .footer {
+      color: white !important;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-ec7a9ff56d20') no-repeat center center;
+      background-size: cover;
+      padding: 100px 0;
+      color: white;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+    .section {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+    h1, h3 {
+      color: #0d6efd;
+    }
+    .footer {
+      background-color: #0d6efd;
+      padding: 15px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .product-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+    }
+    .product-text {
+      flex: 1;
+    }
+    .product-carousel {
+      flex: 1;
+    }
+    .carousel-inner img {
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .hero-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* 👈 Show full image */
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div> 
+
+    </div>
+    <div class="container" >
+      <a class="navbar-brand" href="#">Hcare Industries</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#organization">Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactus">ContactUs</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="hero-container">
+  <img src="doctor.png" class="background-image" alt="Medical Background" />
+  <div class="hero-text">
+    <h1>Trusted Medical Disposable Manufacturer</h1>
+    <p>ISO 9001:2015 Certified | Udaipur, Rajasthan</p>
+  </div>
+</div>
+
+
+<!-- <div class="hero-container">
+  <img src="Doctorimage.png" class="background-image" alt="Medical Background" />
+  <div class="hero-text">
+    <h1>Trusted Medical Disposable Manufacturer</h1>
+    <p>ISO 9001:2015 Certified | Udaipur, Rajasthan</p>
+  </div>
+</div> -->
+
+
+
+
+  <!-- <div class="hero">
+    <div class="container">
+          <img src="Doctorimage.png" alt="" >
+      <h1 class="display-4 fw-bold">Trusted Medical Disposable Manufacturer</h1>
+      <p class="lead">ISO 9001:2015 Certified | Udaipur, Rajasthan</p>
+    </div>
+  </div> -->
+
+  <div class="container py-5">
+    <div class="section" id="about">
+      <h3>About Hcare Industries</h3>
+      <p><strong>Hcare Industries</strong> is an ISO 9001:2015 certified company that manufactures various <strong>Medical Disposable Products</strong> and <strong>Newborn Baby Kits</strong>. Established in 2015, the company aims to provide alternatives to traditional linen or cloth-based products for hospitals and operation theatres. Their products are known for their <strong>quality, sterility</strong>, and use of modern non-woven materials, ensuring the highest standards in medical uses. The manufacturing facility is based in Udaipur, Rajasthan, India.</p>
+    </div>
+
+    <div class="section" id="products">
+      <h3>Key Products & Their Details:</h3>
+
+      <!-- Newborn Baby Kit -->
+      <div class="product-section">
+        <div class="product-text">
+          <h5>Newborn Baby Kit</h5>
+          <ul>
+            <li><strong>Fabric:</strong> Falalen (cotton)</li>
+            <li><strong>Weight:</strong> 120 GSM or 160 GSM</li>
+            <li><strong>Colors:</strong> Pink (Plain or White Printed)</li>
+            <li><strong>Packing:</strong> Single kit with all contents in a <strong>Medical Grade Polythene Bag</strong></li>
+            <li><strong>Brand:</strong> Hcare</li>
+          </ul>
+        </div>
+        <div class="product-carousel">
+          <div id="carouselNewborn" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="New Born Baby kit.jpeg" class="d-block w-100" alt="Newborn Baby Kit Image 1">
+              </div>
+             
+              <div class="carousel-item">
+                <img src="New Born baby .png" class="d-block w-100" alt="Newborn Baby Kit Image 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselNewborn" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselNewborn" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Disposable Delivery Kit -->
+      <div class="product-section mt-5">
+        <div class="product-text">
+          <h5>Disposable Delivery Kit</h5>
+          <ul>
+            <li><strong>Fabric:</strong> Non-woven</li>
+            <li><strong>Color:</strong> Medical blue</li>
+            <li><strong>Contents:</strong>
+              <ul>
+                <li>Disposable gown</li>
+                <li>Examination gloves</li>
+                <li>Face mask</li>
+                <li>Cap</li>
+                <li>Shoe cover</li>
+                <li>Cord clamp</li>
+                <li>Disposable Kelly’s pad</li>
+              </ul>
+            </li>
+            <li><strong>Packing:</strong> Single kit in a <strong>Medical Grade Polythene Bag</strong></li>
+            <li><strong>Brand:</strong> Hcare</li>
+          </ul>
+        </div>
+        <div class="product-carousel">
+          <img src="disposable delivery kit.png" class="d-block w-100" alt="Disposable Delivery Kit">
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="organization">
+      <h3>Organisation Details</h3>
+      <ul>
+        <li><strong>Certifications:</strong> ISO 9001:2015 certified</li>
+        <li><strong>Registered Office:</strong> Udaipur-313001, Rajasthan, India</li>
+      </ul>
+    </div>
+
+    <div class="section" id="conclusion">
+      <h3>Conclusion</h3>
+      <p><strong>Hcare Industries</strong> focuses on providing high-quality, sterile, and convenient medical disposable items and newborn care kits. The emphasis on modern manufacturing methods, certified materials, and thoughtful product packaging highlights their commitment to safety and quality.</p>
+    </div>
+  </div>
+
+  
+  <div class="container">
+    <form>
+      <h1 class="text-center" id="#contactus">ContactUs</h1>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary mb-3">Submit</button>
+</form>
+  </div>
+
+  <footer class="py-5 text-center text-white bg-black"> <p>2025 Hcare Industries. All rights reserved <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://www.linkedin.com/in/bhavneshwari-dadheech-741001273/">bhavneshwari</a>.</p> <p class="mb-0"> <a href="#">Back to top</a> </p> </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
